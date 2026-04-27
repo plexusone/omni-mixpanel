@@ -1,0 +1,35 @@
+{
+  "irVersion": "1.0",
+  "project": "omni-mixpanel",
+  "repository": "https://github.com/plexusone/omni-mixpanel",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["plexusone", "johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-04-27",
+      "commit": "46a3e4b",
+      "highlights": [
+        { "description": "Initial release of Mixpanel DXI adapter wrapping mixpanel-go/v2" }
+      ],
+      "added": [
+        { "description": "Mixpanel Tracker implementing omnidxi-core interface", "commit": "76e7b32" },
+        { "description": "Track events with NewEvent and timestamp support", "commit": "76e7b32" },
+        { "description": "Identify users via PeopleSet with reserved property mapping", "commit": "76e7b32" },
+        { "description": "Group association via GroupSet", "commit": "76e7b32" },
+        { "description": "Alias support via Alias method", "commit": "76e7b32" },
+        { "description": "Insert ID support for deduplication", "commit": "76e7b32" },
+        { "description": "Event context to Mixpanel properties mapping", "commit": "76e7b32" }
+      ],
+      "documentation": [
+        { "description": "README with installation and usage examples", "commit": "7f1772f" }
+      ],
+      "dependencies": [
+        { "description": "Go 1.22+", "commit": "46a3e4b" },
+        { "description": "github.com/mixpanel/mixpanel-go/v2 v2.0.0", "commit": "76e7b32" },
+        { "description": "github.com/plexusone/omnidxi-core v0.1.0", "commit": "76e7b32" }
+      ]
+    }
+  ]
+}
