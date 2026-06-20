@@ -8,7 +8,6 @@ require (
 )
 
 require (
-	github.com/barkimedes/go-deepcopy v0.0.0-20220514131651-17c30cfc62df // indirect
-	github.com/diegoholiveira/jsonlogic/v3 v3.9.0 // indirect
+	github.com/diegoholiveira/jsonlogic/v3 v3.10.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 )
